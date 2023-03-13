@@ -7,9 +7,10 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<input id="nome-card"></input> 
+	<input id="nome-card" oninput="valida()"></input>
 	<button onclick="addCard()">Clica aqui pra criar um card!</button>
- 	<script type="text/javascript" src="script.js"></script>
+	<p id="warning"> </p>
 	<div id="card-viewer"></div>
+ 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
