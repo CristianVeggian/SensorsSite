@@ -1,0 +1,15 @@
+#card-viewer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	min-width:30vw;
+	max-width:45vw;
+	background: rgb(125,125,241);
+	background: linear-gradient(152deg, rgba(125,125,241,1) 0%, rgba(224,0,4,1) 100%);
+	margin: 5px;
+	padding: 5px;
+	border: solid 3px black;
+	height: 30%;
+}
